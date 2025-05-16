@@ -1,8 +1,7 @@
 @import url("./reset.css");
 
 @media (min-width: 767px) {
-
-.grid_container {
+  .grid_container {
     display: grid;
     color: white;
     background-color: rgb(177, 181, 190);
@@ -11,8 +10,8 @@
     align-content: space-evenly;
     grid-template-columns: 100vw;
     align-items: center;
-}
-.aside_a {
+  }
+  .aside_a {
     background-color: rgb(17, 99, 149);
     border-radius: 8px;
     height: 10vh;
@@ -21,10 +20,9 @@
     padding: 5px;
     text-size-adjust: ;
     vertical-align: center;
+  }
 
-}
-
-.header {
+  .header {
     background-color: rgb(159, 32, 99);
     border-radius: 8px;
     height: 10vh;
@@ -33,10 +31,9 @@
     padding: 5px;
     text-size-adjust: ;
     vertical-align: center;
-    
-}
+  }
 
-.article {
+  .article {
     background-color: rgb(33, 184, 121);
     border-radius: 8px;
     height: 50vh;
@@ -44,9 +41,9 @@
     padding: 5px;
     display: grid;
     align-content: space-evenly;
-}
+  }
 
-.column {
+  .column {
     background-color: rgb(228, 25, 91);
     border-radius: 8px;
     height: 10vh;
@@ -55,10 +52,9 @@
     margin: 20px;
     padding: 5px;
     vertical-align: center;
+  }
 
-}
-
-.aside_b {
+  .aside_b {
     background-color: rgb(37, 164, 181);
     border-radius: 8px;
     height: 10vh;
@@ -67,10 +63,9 @@
     text-size-adjust: ;
     padding: 5px;
     vertical-align: center;
+  }
 
-}
-
-.footer {
+  .footer {
     background-color: rgb(224, 107, 38);
     border-radius: 8px;
     height: 10vh;
@@ -79,7 +74,5 @@
     text-size-adjust: ;
     padding: 5px;
     vertical-align: center;
-
-}
-
+  }
 }
